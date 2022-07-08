@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    alert('check Aba:' +isPalindrome('aaa'));
+    function isPalindrome(string) {
+        return string.length <=1? true:(string[0]==string[string.length-1]?isPalindrome(string.slice(1,-1)):false)
+    }
+</script>
+</body>
+</html>
